@@ -6,4 +6,5 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-
+h1 = Hero.create(name: Faker::Name.name, super_name: Faker::Creature::Animal.name)
+h2 = Hero.create(name: Faker::Name.name, super_name: Faker::Creature::Animal.name)
